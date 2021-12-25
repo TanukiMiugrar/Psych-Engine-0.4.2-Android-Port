@@ -203,7 +203,7 @@ class TitleState extends MusicBeatState
 		logoBl.animation.play('bump');
 		logoBl.updateHitbox();
 		// logoBl.screenCenter();
-		// logoBl.color = FlxColor.BLACK;
+		// logoBl.color = FlxColor.YELLOW;
 
 		swagShader = new ColorSwap();
 		if(!FlxG.save.data.psykaEasterEgg || !easterEggEnabled) {
